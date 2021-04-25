@@ -10,4 +10,6 @@
 my_list = [1,2,3]
 another_list = [4,5]
 
-print(my_list + another_list[1])
+print(my_list[1:])
+
+  
