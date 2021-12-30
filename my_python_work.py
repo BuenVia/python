@@ -70,7 +70,18 @@ print(dict_list.items())
 # 5. Tuples = Similar to Lists but are immutable
 t = ('a', 'b', 'c')
 
-# 6. Sets
-
+# 6. Sets = Unordered collections of unique elements
+my_set = set()
+my_set.add(1)
+my_set.add(2)
+print(my_set)
+#Sets only return one instance of a repeated element
+new_set = set([1,1,1,2,2,2,3,3,3,3,7,7,4,4,4])
+print(new_set)
 
 # 7. Booleans
+t = 1 == 1
+f = 1 > 2
+print(t, f)
+
+# 8. Files
