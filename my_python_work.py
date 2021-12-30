@@ -26,8 +26,51 @@ print(x.lower())
 print(x.split())
 #Print Formatting (to add in variables to string)]
 #Format
-print("This is the format{m}".format(m = " method"))
+print("This is the format {m}".format(m = "method"))
 #f String
 r = "method"
 b = "but works better"
 print(f"This is another {r}... but {b}!")
+
+# 3. Lists = Ordered Sequence Holding Variety Of Objects
+my_list = ["String", 100, 2.3]
+print(my_list[2])
+#Append (adding on to a list)
+new_list = ['one', 'two', 'three']
+new_list.append('four')
+print(new_list)
+#Pop (removing from a list)
+new_list.pop(2)
+print(new_list)
+#Sort (reorder a list - must call before running)
+diff_list = ['a', 'r', 'g', 'm', 'b']
+num_list = [4,1,6,3]
+diff_list.sort()
+num_list.sort()
+print(diff_list, num_list)
+#Reverse (reverse a list - must call before running)
+rev_list = [1,2,3,4,5]
+rev_list.reverse()
+print(rev_list)
+
+# 4. Dictionaries = Unordered & Use Key:Value (doesn't need index location, use key instead)
+my_dict = {'key1':'value1', 'key2':'value2'}
+print(my_dict['key1'])
+#Stacking (for when there is a dictionary inside a dictionary)
+new_dict = {'a':123, 'b':'words', 'c':{'f':'one', 'g':'two', 'H':'three'}}
+print(new_dict['c']['g'])
+#Example of List inside of Dictionary Returning UpperCase
+dict_list = {'1':['a', 'b', 'c'], '2':'value2'}
+print(dict_list['1'][2].upper())
+#Return .keys .values or .items
+print(dict_list.keys())
+print(dict_list.values())
+print(dict_list.items())
+
+# 5. Tuples = Similar to Lists but are immutable
+t = ('a', 'b', 'c')
+
+# 6. Sets
+
+
+# 7. Booleans
