@@ -83,5 +83,3 @@ print(new_set)
 t = 1 == 1
 f = 1 > 2
 print(t, f)
-
-# 8. Files
