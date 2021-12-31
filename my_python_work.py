@@ -110,3 +110,17 @@ h = 1 > 2 or 3 == 3
 i = not (1 == 1) #not reverses the boolean result
 
 print(g, h, i)
+
+#IF/ ELIF/ ELSE Statements
+
+
+#FOR Loops
+new_num = [1,2,3,4,5,6,7,8,9,10]
+
+for x in new_num:
+    if x % 2 == 0:
+        print(x)
+    else:
+        print(f'Odd Number: {x}')
+
+        
