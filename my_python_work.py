@@ -97,5 +97,9 @@ print(t, f)
 # Comparison Operators
 a = 1 == 1
 b = 3 != 2
+c = 4 > 8
+d = 4 < 9
+e = 5 >= 6
+f = 5 <= 6
 
-print(a, b)
+print(a, b, c, d, e, f)
