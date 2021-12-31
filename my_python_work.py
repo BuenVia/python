@@ -1,3 +1,13 @@
+#NUMBERS = Numerical date - Intergers & Floating Point
+#STRINGS = Ordered sequence of characters
+#LISTS = Ordered sequence of objects (mutable)
+#TUPLES = Ordered sequence of objects (immutable)
+#DICTIONARY = Unordered, Key:Value pairing
+
+
+
+
+
 # 1. Numbers
 #Integers (whole numbers)
 print (1 + 1)
@@ -83,3 +93,9 @@ print(new_set)
 t = 1 == 1
 f = 1 > 2
 print(t, f)
+
+# Comparison Operators
+a = 1 == 1
+b = 3 != 2
+
+print(a, b)
