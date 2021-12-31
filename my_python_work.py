@@ -103,3 +103,10 @@ e = 5 >= 6
 f = 5 <= 6
 
 print(a, b, c, d, e, f)
+
+#Logical Operators
+g = 1 == 1 and 3 == 3
+h = 1 > 2 or 3 == 3
+i = not (1 == 1) #not reverses the boolean result
+
+print(g, h, i)
