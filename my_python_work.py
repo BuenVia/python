@@ -136,3 +136,17 @@ for x in new_num:
     else:
         print(f'Odd Number: {x}')
 
+name = "Matt Clifford"
+for x in name:
+    print(x)
+
+second_list = ["Word 1", "Object 2", "Number 3"]
+for y in second_list:
+    print(y)
+
+#WHILE LOOPS
+test = 1
+while test < 5:
+    print(test)
+    test += 1
+print("The end....")
