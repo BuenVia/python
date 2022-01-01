@@ -4,6 +4,19 @@
 #TUPLES = Ordered sequence of objects (immutable)
 #DICTIONARY = Unordered, Key:Value pairing
 
+#SETS
+#BOOLEANS
+
+#I/O of Files
+
+#COMPARISON OPERTATORS
+#LOGICAL OPERATOS
+
+#IF/ ELIF/ ELSE STATEMENTS
+#FOR LOOPS
+#WHILE LOOPS
+#LIST COMPREHENSIONS
+
 
 
 
@@ -123,4 +136,3 @@ for x in new_num:
     else:
         print(f'Odd Number: {x}')
 
-        
