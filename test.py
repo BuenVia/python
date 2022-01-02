@@ -1,1 +1,4 @@
-print(3**9)
+side1 = int(input())
+side2 = int(input())
+side2 = int(input())
+
