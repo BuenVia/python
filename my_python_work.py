@@ -150,3 +150,12 @@ while test < 5:
     print(test)
     test += 1
 print("The end....")
+
+def new_func():
+    i = 0
+    while i < 10:
+        print(i)
+        i += 1
+    print("End of While Loop")
+
+new_func()
