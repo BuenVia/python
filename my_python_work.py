@@ -1,3 +1,26 @@
+#NUMBERS = Numerical date - Intergers & Floating Point
+#STRINGS = Ordered sequence of characters
+#LISTS = Ordered sequence of objects (mutable)
+#TUPLES = Ordered sequence of objects (immutable)
+#DICTIONARY = Unordered, Key:Value pairing
+
+#SETS
+#BOOLEANS
+
+#I/O of Files
+
+#COMPARISON OPERTATORS
+#LOGICAL OPERATOS
+
+#IF/ ELIF/ ELSE STATEMENTS
+#FOR LOOPS
+#WHILE LOOPS
+#LIST COMPREHENSIONS
+
+
+
+
+
 # 1. Numbers
 #Integers (whole numbers)
 print (1 + 1)
