@@ -1,8 +1,8 @@
 import random
-from words import word_list
+#from words import word_list
 
 def get_word():
-    word = random.choice(word_list)
+    word = "word" #random.choice(word_list)
     return word.upper()
 
 def play(word):
@@ -18,11 +18,11 @@ def play(word):
     while not guessed and tries > 0:
         guess = input("Please guess a letter or word: ").upper()
         if len(guess) == 1 and guess.isalpha():
-            if guessed is in guessed_letters:
+            if guess is guessed_letters:
                 print("You already guessed the letter", guess)
             elif guess not in word:
                 print(guess, "is not in the word")
-                tries += 1
+                tries -= 1
                 guessed_letters.append(guess)
             else:
                 print("Good job ", guess, " is the word!")
