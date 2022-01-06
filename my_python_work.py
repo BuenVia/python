@@ -114,3 +114,14 @@ def new_func():
     print(xyz)
 
 new_func()
+
+def sec_func():
+    num = 0
+    while num < 10:
+        if num % 2 == 0:
+            print(f"{num} = Even")
+        else:
+            print(f"{num} = Odd")
+        num += 1
+
+sec_func()
