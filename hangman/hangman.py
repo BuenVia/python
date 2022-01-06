@@ -11,3 +11,26 @@ def play(word):
     guessed_letters = []
     guessed_words = []
     tries = 6
+    print("Let's play hangman!")
+    print(display_hangman(tries))
+    print(word_completion)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def display_hangman(tries):
+    stages = [
+        """1""", """2""", """3""", """4""", """5""", """6"""
+    ]
