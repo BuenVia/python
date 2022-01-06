@@ -4,6 +4,19 @@
 #TUPLES = Ordered sequence of objects (immutable)
 #DICTIONARY = Unordered, Key:Value pairing
 
+#SETS
+#BOOLEANS
+
+#I/O of Files
+
+#COMPARISON OPERTATORS
+#LOGICAL OPERATOS
+
+#IF/ ELIF/ ELSE STATEMENTS
+#FOR LOOPS
+#WHILE LOOPS
+#LIST COMPREHENSIONS
+
 
 
 
@@ -94,33 +107,21 @@ t = 1 == 1
 f = 1 > 2
 print(t, f)
 
-# Comparison Operators
-a = 1 == 1
-b = 3 != 2
-c = 4 > 8
-d = 4 < 9
-e = 5 >= 6
-f = 5 <= 6
+# 8. Files
+#TO be update
+def new_func():
+    xyz = "New string"
+    print(xyz)
 
-print(a, b, c, d, e, f)
+new_func()
 
-#Logical Operators
-g = 1 == 1 and 3 == 3
-h = 1 > 2 or 3 == 3
-i = not (1 == 1) #not reverses the boolean result
+def sec_func():
+    num = 0
+    while num < 10:
+        if num % 2 == 0:
+            print(f"{num} = Even")
+        else:
+            print(f"{num} = Odd")
+        num += 1
 
-print(g, h, i)
-
-#IF/ ELIF/ ELSE Statements
-
-
-#FOR Loops
-new_num = [1,2,3,4,5,6,7,8,9,10]
-
-for x in new_num:
-    if x % 2 == 0:
-        print(x)
-    else:
-        print(f'Odd Number: {x}')
-
-        
+sec_func()

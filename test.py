@@ -1,2 +1,9 @@
-a = 100.25 * 2 / (2**2) + 51 - 0.875
-print(a)
+n = int(input())
+
+length = 0
+
+while n > 0:
+    n //= 10
+    length =+ 1
+
+print(length)
