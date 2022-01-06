@@ -86,3 +86,8 @@ print(t, f)
 
 # 8. Files
 #TO be update
+def new_func():
+    xyz = "New string"
+    print(xyz)
+
+new_func()
