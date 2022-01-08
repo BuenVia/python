@@ -6,7 +6,7 @@ print("Good luck ! ", name)
 
 words = ['rainbow', 'computer', 'science', 'programming',
          'python', 'mathematics', 'player', 'condition',
-         'reverse', 'water', 'board', 'geeks']
+         'reverse', 'water', 'board', 'geeks', 'automation']
 
 word = random.choice(words)
 
