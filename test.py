@@ -1,9 +1,3 @@
-n = int(input())
+x = 1
 
-length = 0
-
-while n > 0:
-    n //= 10
-    length =+ 1
-
-print(length)
+assert x == 2, f'Expected 2 but got {x}'
