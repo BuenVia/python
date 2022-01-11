@@ -14,6 +14,7 @@ for x in range(WIDTH):
             column.append(" ") #Add a dead cell
     nextCells.append(column) #nextCells is a list of column lists
 
+#Main program loop
 while True:
     print("\n\n\n\n\n")
     currentCells = copy.deepcopy(nextCells)
