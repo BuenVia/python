@@ -2,16 +2,17 @@ import random, time, copy
 WIDTH = 60
 HEIGHT = 20
 
+#Create a list of list for the cells
 nextCells = []
 
 for x in range(WIDTH):
-    column = []
+    column = [] #Create a new column
     for y in range(HEIGHT):
         if random.randint(0, 1) == 0:
-            column.append('#')
+            column.append('#') #Add a living cell
         else:
-            column.append(" ")
-    nextCells.append(column)
+            column.append(" ") #Add a dead cell
+    nextCells.append(column) #nextCells is a list of column lists
 
 while True:
     print("\n\n\n\n\n")
@@ -20,7 +21,7 @@ while True:
     for y in range(HEIGHT):
         for x in range(WIDTH):
             print(currentCells[x][y], end=" ")
-            print()
+        print()
 
     for x in range(WIDTH):
         for y in range(HEIGHT):
@@ -54,4 +55,4 @@ while True:
             else:
                 nextCells[x][y] = " "
 
-    time.sleep(1)
+    time.sleep(0.5)
