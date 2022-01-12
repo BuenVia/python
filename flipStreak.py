@@ -30,3 +30,24 @@ else:
 
     #Code that checks if there is a streak of 6 heads or tails in a row.
 
+streak = 0
+repeat = 0
+
+for i in range(len(result)):
+    count = 0
+    for x in range(6):
+        try:
+            if result[i] == result[i + x]:
+                count += 1
+            else:
+                break
+        except IndexError:
+            break
+
+    if count == 6:
+        streak += 1
+repeat += 1
+
+print(f"Streaks: {streak}")
+print(f"Repeats: {repeat}")
+print("The odds are " + str((streak / (1000 * 100 / 100))) + "%")
